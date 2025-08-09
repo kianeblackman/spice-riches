@@ -1,1 +1,1 @@
-# spice-riches
+# Spice Riches 🚀
