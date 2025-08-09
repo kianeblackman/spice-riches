@@ -9,7 +9,7 @@ export default function App() {
       </div>
       <div className="footer">
         <div className="footer-content">
-          <h1 className="footer--heading heading">COMING SOON<span> <span>12</span> <span>03</span> <span>25</span></span></h1>
+          <h1 className="footer--heading heading">COMING SOON<span> <span className="footer-countdown">12</span> <span className="footer-countdown">03</span> <span className="footer-countdown">25</span></span></h1>
           <p className="footer--body-text body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
         </div>
       </div>
