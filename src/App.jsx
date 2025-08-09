@@ -1,5 +1,6 @@
 import "./styles/main.scss"
 import logo from "./assets/img/logo.png"
+import spaceship from "./assets/img/spaceship.png"
 
 export default function App() {
   return (
@@ -7,6 +8,9 @@ export default function App() {
       <div className="sand-texture"></div>
       <div className="header">
         <div className="header--content">
+          <div className="header-spaceship">
+            <img src={spaceship} alt="Spice Riches Spaceship" className="header-spaceship-img" />
+          </div>
           <h1 className="header--heading heading">SPIN FOR SPICE</h1>
           <h1 className="header--heading heading">RULE THE DESERT</h1>
         </div>
