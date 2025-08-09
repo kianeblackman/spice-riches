@@ -1,6 +1,7 @@
 import "./styles/main.scss"
 import logo from "./assets/img/logo.png"
 import spaceship from "./assets/img/spaceship.png"
+import paul from "./assets/img/paul.png"
 
 export default function App() {
   return (
@@ -15,6 +16,13 @@ export default function App() {
           <h1 className="header--heading heading">RULE THE DESERT</h1>
         </div>
       </div>
+      <div className="character-slider">
+        <div className="character-slider-content">
+          <div className="character-slider--item">
+            <img src={paul} alt="Character 1" className="character-slider--paul" />
+          </div>
+        </div>
+      </div>
       <div className="footer">
         <div className="footer-content">
           <div className="footer--logo">
@@ -24,6 +32,6 @@ export default function App() {
           <p className="footer--body-text body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
         </div>
       </div>
-    </div>
+    </div >
   )
 }
