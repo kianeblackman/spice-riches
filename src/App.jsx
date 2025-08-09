@@ -6,7 +6,10 @@ export default function App() {
     <div id="app" className="app-wrapper">
       <div className="sand-texture"></div>
       <div className="header">
-
+        <div className="header--content">
+          <h1 className="header--heading heading">SPIN FOR SPICE</h1>
+          <h1 className="header--heading heading">RULE THE DESERT</h1>
+        </div>
       </div>
       <div className="footer">
         <div className="footer-content">
