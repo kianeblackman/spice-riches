@@ -1,0 +1,13 @@
+@use "./fonts" as fonts;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+  font-family: fonts.$font-audiowide, Arial, Helvetica, sans-serif;
+}
+
+.body-text {
+  font-family: fonts.$font-quicksand, Arial, Helvetica, sans-serif;
+}
