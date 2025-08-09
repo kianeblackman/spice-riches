@@ -4,7 +4,7 @@
   right: 0;
   height: 100%;
   width: 50%;
-  z-index: 10;
+  z-index: 20;
 }
 
 .character-slider-content {
@@ -21,7 +21,7 @@
   height: 95%;
 }
 
-.character-slider--paul {
+.character-slider--image {
   height: 1600px;
   width: auto;
   transition: transform 0.3s ease-in-out;
