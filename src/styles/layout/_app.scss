@@ -1,0 +1,14 @@
+@use "../base/colors" as colors;
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+
+  background-color: colors.$primary-white;
+  background-image: url("../../assets/img/bg_main_landscape.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
