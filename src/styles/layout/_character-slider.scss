@@ -13,7 +13,7 @@
   width: 100%;
 }
 
-.character-slider--item {
+.character-slider-item {
   position: absolute;
   top: 5%;
   right: -30%;
@@ -21,7 +21,7 @@
   height: 95%;
 }
 
-.character-slider--image {
+.character-slider-image {
   height: 1600px;
   width: auto;
   transition: transform 0.3s ease-in-out;
