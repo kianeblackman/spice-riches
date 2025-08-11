@@ -1,0 +1,70 @@
+@use "../base/colors" as colors;
+@use "../base/breakpoints" as breakpoints;
+
+.header {
+  width: 100%;
+  height: 70vh;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 0 3rem;
+}
+
+@media (max-width: breakpoints.$breakpoint-sm) {
+  .header-content {
+    padding: 3rem 0;
+    align-items: center;
+    justify-content: start;
+  }
+}
+
+.header-heading {
+  position: relative;
+  color: colors.$sky-yellow;
+  font-size: 10rem;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: colors.$primary-black;
+  transform: rotate(-10deg);
+  top: -15%;
+  z-index: 50;
+  line-height: 1.2;
+}
+
+@media (max-width: breakpoints.$breakpoint-sm) {
+  .header-heading {
+    transform: none;
+    font-size: 4.2rem;
+    -webkit-text-stroke-width: 2px;
+    top: 0;
+    line-height: 1;
+  }
+}
+
+.header-heading--white {
+  color: colors.$primary-white;
+  z-index: 30;
+}
+
+.header-spaceship {
+  position: absolute;
+  left: 25%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 15;
+}
+
+@media (max-width: breakpoints.$breakpoint-sm) {
+  .header-spaceship {
+    display: none;
+  }
+}
+
+.header-spaceship-img {
+  height: 8rem;
+  width: auto;
+  z-index: 100;
+}

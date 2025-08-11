@@ -1,0 +1,16 @@
+@use "./fonts" as fonts;
+@use "./colors" as colors;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+  font-family: fonts.$font-abolition, Arial, Helvetica, sans-serif;
+  color: colors.$primary-black;
+}
+
+.body-text {
+  font-family: fonts.$font-quicksand, Arial, Helvetica, sans-serif;
+  color: colors.$primary-black;
+}
