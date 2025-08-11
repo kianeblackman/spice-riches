@@ -49,7 +49,7 @@ export default function App() {
 
         </div>
       </div>
-      {/* <div className="character-slider">
+      <div className="character-slider">
         <div className="character-slider-content">
           <div className="character-slider-item">
             <img
@@ -59,7 +59,7 @@ export default function App() {
             />
           </div>
         </div>
-      </div> */}
+      </div>
       <div className="footer">
         <div className="footer-content">
           <div className="footer-logo">

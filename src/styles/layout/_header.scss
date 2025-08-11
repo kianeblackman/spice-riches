@@ -1,4 +1,5 @@
 @use "../base/colors" as colors;
+@use "../base/breakpoints" as breakpoints;
 
 .header {
   width: 100%;
@@ -13,6 +14,14 @@
   padding: 0 3rem;
 }
 
+@media (max-width: breakpoints.$breakpoint-sm) {
+  .header-content {
+    padding: 3rem 0;
+    align-items: center;
+    justify-content: start;
+  }
+}
+
 .header-heading {
   position: relative;
   color: colors.$sky-yellow;
@@ -25,9 +34,19 @@
   line-height: 1.2;
 }
 
+@media (max-width: breakpoints.$breakpoint-sm) {
+  .header-heading {
+    transform: none;
+    font-size: 5rem;
+    -webkit-text-stroke-width: 2px;
+    top: 0;
+    line-height: 1;
+  }
+}
+
 .header-heading--white {
   color: colors.$primary-white;
-  z-index: 0;
+  z-index: 30;
 }
 
 .header-spaceship {
@@ -38,8 +57,23 @@
   z-index: 15;
 }
 
+@media (max-width: breakpoints.$breakpoint-sm) {
+  .header-spaceship {
+    display: none;
+  }
+}
+
+
 .header-spaceship-img {
   height: 8rem;
   width: auto;
   z-index: 100;
 }
+
+
+
+
+
+
+
+
