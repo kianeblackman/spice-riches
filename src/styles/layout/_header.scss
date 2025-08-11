@@ -37,7 +37,7 @@
 @media (max-width: breakpoints.$breakpoint-sm) {
   .header-heading {
     transform: none;
-    font-size: 5rem;
+    font-size: 4.2rem;
     -webkit-text-stroke-width: 2px;
     top: 0;
     line-height: 1;
@@ -63,17 +63,8 @@
   }
 }
 
-
 .header-spaceship-img {
   height: 8rem;
   width: auto;
   z-index: 100;
 }
-
-
-
-
-
-
-
-
