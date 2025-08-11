@@ -2,36 +2,44 @@
 
 .header {
   width: 100%;
-  // height: 70vh;
+  height: 70vh;
 }
 
 .header-content {
   display: flex;
   flex-direction: column;
-  align-items: left;
   justify-content: center;
-  // height: 100%;
+  height: 100%;
+  padding: 0 3rem;
 }
 
 .header-heading {
   position: relative;
   color: colors.$sky-yellow;
-  font-size: 12rem;
+  font-size: 10rem;
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: colors.$primary-black;
   transform: rotate(-10deg);
-  z-index: 10;
+  top: -15%;
+  z-index: 50;
+  line-height: 1.2;
+}
+
+.header-heading--white {
+  color: colors.$primary-white;
+  z-index: 0;
 }
 
 .header-spaceship {
   position: absolute;
-  top: 35%;
-  right: 50%;
+  left: 25%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   z-index: 15;
 }
 
 .header-spaceship-img {
-  height: 10rem;
+  height: 8rem;
   width: auto;
   z-index: 100;
 }

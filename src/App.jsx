@@ -39,13 +39,17 @@ export default function App() {
       <div className="sand-texture"></div>
       <div className="header">
         <div className="header-content">
-          <h1 className="header-heading heading">SPIN FOR SPICE & <br></br>RULE THE DESERT!</h1>
-          <div className="header-spaceship">
-            <img src={spaceship} alt="Spice Riches Spaceship" className="header-spaceship-img" />
-          </div>
+          <h1 className="header-heading heading">
+            SPIN FOR SPICE &
+            <div className="header-spaceship">
+              <img src={spaceship} alt="Spice Riches Spaceship" className="header-spaceship-img" />
+            </div>
+            <br /> <span className="header-heading--white">RULE THE DESERT!</span>
+          </h1>
+
         </div>
       </div>
-      <div className="character-slider">
+      {/* <div className="character-slider">
         <div className="character-slider-content">
           <div className="character-slider-item">
             <img
@@ -55,7 +59,7 @@ export default function App() {
             />
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="footer">
         <div className="footer-content">
           <div className="footer-logo">
