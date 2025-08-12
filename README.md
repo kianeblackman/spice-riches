@@ -1,12 +1,7 @@
-# React + Vite
+# Spice Riches
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The project has been built within the 'dist' folder and you can view the compiled files there.
 
-Currently, two official plugins are available:
+If you wish to run the site locally you can either run the dist folder through a Live Server or run 'npm install' and then 'npm run dev' command in the root directory of the project. The project should then run on  http://localhost:5173/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+You can also access the live site here: https://spice-riches.netlify.app/
